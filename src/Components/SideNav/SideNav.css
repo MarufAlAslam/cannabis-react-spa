@@ -1,0 +1,16 @@
+img.img-fluid.logo {
+    width: 120px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.bg-green {
+    background-color: #47CC4D !important;
+}
+
+.sideMenuItem {
+    font-size: 22px;
+    font-weight: 400;
+}
