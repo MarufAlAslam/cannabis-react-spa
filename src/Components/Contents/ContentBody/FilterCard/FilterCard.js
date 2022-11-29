@@ -15,8 +15,6 @@ const FilterCard = () => {
         set_maxValue(e.maxValue);
     };
 
-    const [active, setActive] = useState("inactive");
-
 
 
     const toggleClass = (e) => {
