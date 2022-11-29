@@ -6,6 +6,7 @@ import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 const ContentBody = () => {
     return (
         <div className='p-4 bg-light'>
+
             <h2 className='fs-24 fw-5'>
                 Auction
             </h2>
