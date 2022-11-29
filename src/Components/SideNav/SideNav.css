@@ -10,7 +10,54 @@ img.img-fluid.logo {
     background-color: #47CC4D !important;
 }
 
-.sideMenuItem {
+.sideMenuItem,
+.btn.sideMenuItem {
     font-size: 22px;
     font-weight: 400;
+    background: white;
+    width: 100%;
+    display: block;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    border-left: 6px solid transparent !important;
+}
+
+.sideMenuItem img {
+    margin-right: 15px;
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.menu {
+    margin-top: 60px;
+}
+
+.submenu-item .sideMenuItem {
+    padding-left: 100px;
+}
+
+.text-2xl {
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.active .text-2xl {
+    transform: rotate(90deg);
+}
+
+.sideMenuItem:hover,
+.btn.sideMenuItem:hover {
+    background: rgba(76, 175, 80, 0.17);
+    border-radius: 0;
+    border-left: 6px solid #4CAF50 !important;
+}
+
+.submenu {
+    display: none;
+}
+
+.active .submenu {
+    display: block;
 }
