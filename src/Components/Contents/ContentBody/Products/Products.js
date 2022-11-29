@@ -90,7 +90,7 @@ const Products = () => {
         <>
             {
                 products.map(product => (
-                    <div key={product.id} className='card border-0 rounded-0 mb-3'>
+                    <div key={product.id} className='card border-0 rounded-0 mb-4'>
                         <div className='card-body'>
                             <table className='table mb-0 productTable'>
                                 <tbody>

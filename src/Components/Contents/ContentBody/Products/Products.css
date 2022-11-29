@@ -53,8 +53,12 @@
 
 .productTable td:nth-child(3) {
     width: 15%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .productTable td:last-child {
     width: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
