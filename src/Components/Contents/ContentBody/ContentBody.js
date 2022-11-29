@@ -1,5 +1,6 @@
 import React from 'react';
 import FilterCard from './FilterCard/FilterCard';
+import Products from './Products/Products';
 
 const ContentBody = () => {
     return (
@@ -14,6 +15,9 @@ const ContentBody = () => {
             <div className='row'>
                 <div className='col-lg-3'>
                     <FilterCard></FilterCard>
+                </div>
+                <div className='col-lg-9'>
+                    <Products></Products>
                 </div>
             </div>
         </div>
