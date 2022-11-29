@@ -61,3 +61,7 @@ img.img-fluid.logo {
 .active .submenu {
     display: block;
 }
+
+li.menu-item.hasSubmenu .d-flex {
+    padding-right: 40px;
+}
